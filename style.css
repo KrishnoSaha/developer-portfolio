@@ -13,9 +13,9 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
-    height: 6in;
+    margin-bottom: 100px;
 }
 
 .halfwidth {
@@ -46,11 +46,6 @@ section {
     width: 80%;
 }
 
-.adjustdiv2 {
-    padding-left: 2%;
-    width: 50%;
-}
-
 .button-2 {
     text-decoration: none;
     padding: 10px 7px;
@@ -60,8 +55,42 @@ section {
     font-weight: 400;
 }
 
+
+
 .dreambig {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 
+}
+
+.xpitem {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 5px;
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
+
+}
+
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0%;
+
+}
+
+#fullstack {
+    border-left: 7px solid blue;
+}
+
+#baby {
+    border-left: 7px solid orange;
+}
+
+footer p {
+    text-align: center;
 }
